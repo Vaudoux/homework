@@ -4,7 +4,10 @@ export default function Checkbox() {
   return (
     <>
       <span>Учитывать только совершеннолетних </span>
-      <input type="checkbox" name="" id="" className="checkbox" />
+      <input
+        type="checkbox"
+        /* checked={showAdult} onChange={sortByAdult} */ className="checkbox"
+      />
     </>
   );
 }
