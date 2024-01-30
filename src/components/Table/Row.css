@@ -1,0 +1,11 @@
+.table tbody td {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444441;
+  border-top: 1px solid #716561;
+}
+
+tr.pointed {
+  background-color: #a9c0ff;
+}

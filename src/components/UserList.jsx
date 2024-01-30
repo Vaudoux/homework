@@ -1,5 +1,6 @@
 import React from "react";
-import Table from "./Table/Table";
+/* import Table from "./Table/Table"; */
+import Table from "./Table/Columns";
 import { useEffect, useState } from "react";
 import Button from "./Button/Button";
 import Checkbox from "./Checkbox/Checkbox";
@@ -77,6 +78,7 @@ export default function UserList() {
         sortByDate={sortByDate}
       />
       <Checkbox sortByAdult={onChange} showAdult={showAdult} />
+
       <Table users={users} />
     </div>
   );
